@@ -10,7 +10,6 @@ timezone: Asia/Tehran
 comment_system: disqus
 disqus_shortname: bieffect-github-io
 
-markdown: Markright
 theme: minima
 
 plugins:
