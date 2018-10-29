@@ -53,13 +53,13 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 
  در ادامه برای اینکه این فایل هارو به ریپازیتوری ساخته شده در گیت هاب انتقال بدیم کارهای زیر رو انجام بدین :
 
-		cd Your-Repository-Name
+	cd Your-Repository-Name
 
-		git init
+	git init
 
-		git remote add origin https://github.com/YourUserName/Your-Repository-Name
+	git remote add origin https://github.com/YourUserName/Your-Repository-Name
 
-		git pull origin master
+	git pull origin master
 
 
 خب لازمه بگم دستور زیر 
