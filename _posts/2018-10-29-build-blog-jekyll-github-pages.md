@@ -15,14 +15,14 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 
  در مرحله بعد باید یک ریپازیتوری جدید ساخته بشه
 
-![Image](https://www.dropbox.com/s/baexzxy6olhom5z/build_blog01.jpg?dl=0) 
+![Image](http://xup.ir/images/19672104475964310783.jpg) 
 
 دقت کنین که اسمی که برای ریپازیتوری انتخاب میکنید بصورت زیر باشه :
 
 	 username.github.io
 
 
-![Image](https://www.dropbox.com/s/koy3y2vr4kk4ydv/build_blog02.jpg?dl=0) 
+![Image](http://xup.ir/images/08656051274779669956.jpg) 
 
  برای کنترل وبلاگ از طریق کامپیوتر شخصیتون نیاز داریم که جکیل روی سیستم نصب بشه
 
