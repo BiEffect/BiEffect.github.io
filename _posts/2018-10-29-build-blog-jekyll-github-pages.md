@@ -44,6 +44,7 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 	gem install jekyll bundler
 
 خب حالا تونستیم *جکیل* رو نصب کنیم 
+(کاربران ویندوز میتونن به [این](https://jekyllrb.com/docs/installation/windows/) صفحه مراجعه کنن)
 
  برای ساخت وبلاگ جدیدمون دستورات زیر رو وارد میکنیم(شما اسم وبلاگ خودتونو بجای Your-Repository-Name وارد کنین ) :
 
