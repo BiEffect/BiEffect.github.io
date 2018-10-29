@@ -90,6 +90,8 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 	title: Your-Post-Title
 	---
 
+بعنوان مثال میتونین نحوه چینش همین [پست](https://github.com/BiEffect/bieffect.github.io/blob/master/_posts/2018-10-29-build-blog-jekyll-github-pages.md) که درحال خوندنش هستین رو ببینین
+
 اگه با مارک داون آشنایی ندارین میتونین از [اینجا]( https://virgool.io/@kiavash/markmoredown-iv2wl1gxicmu ) یاد بگیرین
 
 در هر مرحله برای اینکه بتونین تغییرات اعمال شده رو مشاهده کنین از طریق ترمینال وارد پوشه اصلی وبلاگ بشین و دستور زیر رو وارد کنین :
