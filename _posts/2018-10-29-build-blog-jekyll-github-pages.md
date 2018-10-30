@@ -93,11 +93,10 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 	date: 2018-10-29 18:25:00 #For example
 	title: Your-Post-Title
 	---
-    {= .class dir="ltr" }
 
 اسم پستی که انتخاب میکنین حتما باید در ابتداش سال ماه و روز انتشار پست و بعد از اونا اسم پستتون رو بنویسین
 بعنوان مثال میتونین نحوه چینش همین [پست](https://github.com/BiEffect/bieffect.github.io/blob/master/_posts/2018-10-29-build-blog-jekyll-github-pages.md) که درحال خوندنش هستین رو ببینین
-
+{= .class dir="ltr" }
 اگه با مارک داون آشنایی ندارین میتونین از [اینجا]( https://virgool.io/@kiavash/markmoredown-iv2wl1gxicmu ) یاد بگیرین
 
 در هر مرحله برای اینکه بتونین تغییرات اعمال شده رو مشاهده کنین از طریق ترمینال وارد پوشه اصلی وبلاگ بشین و دستور زیر رو وارد کنین :
