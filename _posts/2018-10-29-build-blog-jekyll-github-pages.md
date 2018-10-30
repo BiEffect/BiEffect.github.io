@@ -93,7 +93,7 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 	date: 2018-10-29 18:25:00 #For example
 	title: Your-Post-Title
 	---
-        {= .class dir="ltr" }
+    {= .class dir="ltr" }
 
 اسم پستی که انتخاب میکنین حتما باید در ابتداش سال ماه و روز انتشار پست و بعد از اونا اسم پستتون رو بنویسین
 بعنوان مثال میتونین نحوه چینش همین [پست](https://github.com/BiEffect/bieffect.github.io/blob/master/_posts/2018-10-29-build-blog-jekyll-github-pages.md) که درحال خوندنش هستین رو ببینین
