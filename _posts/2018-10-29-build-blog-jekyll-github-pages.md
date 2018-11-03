@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2018-10-29 18:25:00
-category: other
 tags: other
 title: ساخت وبلاگ با گیت هاب و جکیل
 ---
