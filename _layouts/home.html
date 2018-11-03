@@ -31,4 +31,9 @@ layout: default
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
+  <h3>دسته بندی پستها</h3>
+{% for category in site.categories %}
+    <a href="/category/{{ category[0] }}/" style="text-decoration: none;">{% if category[0] == 'aws' %}{{ category[0] | upcase }}{% else %}{{ category[0] | capitalize }}{% endif %}</a><br />
+{% endfor %}
+<p />
 </div>
