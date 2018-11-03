@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: سایر"
+title: سایر
 tag: other
 ---
