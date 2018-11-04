@@ -11,6 +11,8 @@ timezone: Asia/Tehran
 comment_system: disqus
 disqus_shortname: bieffect-github-io
 
+google_analytics: UA-128630662-1
+
 theme: minima
 
 plugins:
