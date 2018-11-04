@@ -63,6 +63,7 @@ $assets-dir:	   '{{ "assets" | absolute_url }}';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+    "minima",
     "pygments.css",
     "base",
     "layout",
