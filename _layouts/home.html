@@ -6,20 +6,9 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-<div>
-  <script>
-  (function() {
-    var cx = '006217176783083543730:ip1ifikfuq8';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-</div>
+
+  {% include google-search.html %}
+  
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
