@@ -12,6 +12,7 @@ comment_system: disqus
 disqus_shortname: bieffect-github-io
 
 google_analytics: UA-128630662-1
+google_cse_id: 006217176783083543730:ip1ifikfuq8
 
 theme: minima
 
