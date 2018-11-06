@@ -11,27 +11,22 @@ Date: 2018-11-06 19:00
 
 داخل فایل ساخته شده محتویات زیر رو وارد کنین :
 
-	<!DOCTYPE html>
-   
+    <!DOCTYPE html>
     <html lang="{{ page.lang | default: site.lang | default: "fa-IR" }}">
-
-    <head> {%- include head.html -%}</head> 
-
+    <head>
+      {%- include head.html -%}
+    </head>
     <body>
 
-     {%- include header.html -%} 
+      {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content"> 
+    <main class="page-content" aria-label="Content">
+          <div dir="rtl" class="wrapper">
+            {{ content }}
+          </div>
+    </main>
 
-    <div dir="rtl" class="wrapper">
-
-    {{ content }} 
-
-    </div>     
-
-	</main>
-
-    {%- include footer.html -%} 
+    {%- include footer.html -%}
 
     </body>
 
@@ -69,7 +64,7 @@ Date: 2018-11-06 19:00
     <li>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} 
 
-   <span class="post-meta">
+    <span class="post-meta">
   
      {{ post.date | date: date_format }}
 
