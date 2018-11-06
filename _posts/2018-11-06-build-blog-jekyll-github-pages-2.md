@@ -11,7 +11,7 @@ Date: 2018-11-06 19:00
 
 داخل فایل ساخته شده محتویات زیر رو وارد کنین :
 
->    <!DOCTYPE html>
+    `<!DOCTYPE html>
     <html lang="{{ page.lang | default: site.lang | default: "fa-IR" }}">
     <head>
       {%- include head.html -%}
@@ -25,7 +25,7 @@ Date: 2018-11-06 19:00
     </main>
        {%- include footer.html -%}
     </body>
-    </html>
+    </html>`
 
 پس از ذخیره داخل همین پوشه فایل جدیدی به اسم `home.html` میسازیم و خط های زیر رو داخلش وارد و ذخیره میکنیم :
 
