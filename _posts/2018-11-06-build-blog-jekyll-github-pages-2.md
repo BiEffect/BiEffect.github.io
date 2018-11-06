@@ -11,25 +11,20 @@ Date: 2018-11-06 19:00
 
 داخل فایل ساخته شده محتویات زیر رو وارد کنین :
 
-    <!DOCTYPE html>
+>    <!DOCTYPE html>
     <html lang="{{ page.lang | default: site.lang | default: "fa-IR" }}">
     <head>
       {%- include head.html -%}
     </head>
     <body>
-
       {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
           <div dir="rtl" class="wrapper">
             {{ content }}
           </div>
     </main>
-
-    {%- include footer.html -%}
-
+       {%- include footer.html -%}
     </body>
-
     </html>
 
 پس از ذخیره داخل همین پوشه فایل جدیدی به اسم `home.html` میسازیم و خط های زیر رو داخلش وارد و ذخیره میکنیم :
