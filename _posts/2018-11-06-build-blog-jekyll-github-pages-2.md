@@ -14,7 +14,7 @@ Date: 2018-11-06 19:00
     `<!DOCTYPE html>
     <html lang="{{ page.lang | default: site.lang | default: "fa-IR" }}">
     <head>
-      {%- include head.html -%}
+
     </head>
     <body>
       {%- include header.html -%}
