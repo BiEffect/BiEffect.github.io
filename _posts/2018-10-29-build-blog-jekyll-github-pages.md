@@ -77,9 +77,9 @@ title: ساخت وبلاگ با گیت هاب و جکیل
 
 حالا با استفاده از سه دستور زیر محتویات پوشه ساخته شده توسط jekyll رو به ریپازیتوریمون push میکنیم :
 
-	. git add
+	git add .
 
-	"git commit -m "first commit
+	git commit -m "first commit"
 
 	git push -u origin master
 
