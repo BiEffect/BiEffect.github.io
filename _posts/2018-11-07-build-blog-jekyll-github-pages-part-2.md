@@ -21,17 +21,9 @@ tags: آموزشی
      <link rel="alternate" type="application/rss+xml" title="My Weblog RSS" href="/feed.xml"> 
      <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> 
 
-     {%- feed_meta -%} 
+     {%- feed_meta -%}
 
-     {%- if jekyll.environment == 'production' and site.google_analytics -%} 
-       {%- include google-analytics.html -%} 
-     {%- endif -%} 
-
-     {%- if site.tags != "" -%} 
-       {%- include collecttags.html -%}
-     {%- endif -%}
-
-</head>
+    </head>
 
 پس از ذخیره در همین پوشه فایل جدیدی به نام `header.html` میسازیم و محتویات زیر رو داخلش قرار میدیم :
 
@@ -101,7 +93,8 @@ tags: آموزشی
 در ادامه داخل همین پوشه فایل هایی بنام [home.html](https://github.com/BiEffect/bieffect.github.io/blob/master/_layouts/home.html) ، [post.html](https://github.com/BiEffect/bieffect.github.io/blob/master/_layouts/post.html) و [page.html](https://github.com/BiEffect/bieffect.github.io/blob/master/_layouts/page.html) میسازیم. 
 
 **نکته:** تمامی فایل های بالا از خود ریپازیتوری [minima]( https://github.com/jekyll/minima) گرفته شده اما از اونجا که این قالب برای زبان فارسی طراحی نشده یکسری تغییرات داخلش ایجاد کردم که اگه با HTML و CSS کمی آشنایی داشته باشین خودتون میتونین تا این مشکل رو بهبود بدین
-پس در ادامه پوشه های `_sass` و `assets` رو از ریپازیتوری من [دریافت کنین](https://github.com/BiEffect/bieffect.github.io) و داخل پوشه اصلی وبلاگتون قرار بدین
+پس در ادامه پوشه های
+`sass_` و `assets` رو از ریپازیتوری من [دریافت کنین](https://github.com/BiEffect/bieffect.github.io) و داخل پوشه اصلی وبلاگتون قرار بدین
 
 برای راحتی کار میتونین از دستور زیر استفاده کنین تا تمامی فایل ها دانلود بشه :
 	
@@ -159,9 +152,7 @@ tags: آموزشی
 
 
 
-حالا دوباره به پوشه اصلی وبلاگ روی سیستممون میریم و پوشه جدیدی به نام `includes_` میسازیم
-
-داخل این پوشه فایلی به نام `disqus_comments.html` بسازین و کدی رو که از disqus گرفته بودین واردش کنین
+داخل پوشه `includes_` فایلی به نام `disqus_comments.html` بسازین و کدی رو که از disqus گرفته بودین واردش کنین
 
 در انتها وارد فایل `config.yml_` بشین و خط زیر رو واردش کنید :
 
